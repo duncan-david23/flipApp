@@ -89,7 +89,7 @@ const Home = () => {
             <div className="w-10 h-10 bg-linear-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
               <ArrowTrendingUpIcon className="w-6 h-6" />
             </div>
-            <span className="text-2xl font-bold bg-linear-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            <span className="text-md md:text-2xl font-bold bg-linear-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
               FlipCashInvest
             </span>
           </motion.div>
@@ -105,7 +105,7 @@ const Home = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-linear-to-r from-blue-500 to-purple-600 px-6 py-2 rounded-full font-semibold hover:shadow-lg hover:shadow-blue-500/25 transition-all"
+            className="bg-linear-to-r from-blue-500 to-purple-600 px-6 py-2 md:text-md text-sm rounded-full font-semibold hover:shadow-lg hover:shadow-blue-500/25 transition-all"
           >
             Get Started
           </motion.button>
@@ -398,9 +398,9 @@ const Home = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="bg-linear-to-r from-blue-500/10 to-purple-500/10 rounded-2xl p-12 text-center border border-gray-700 backdrop-blur-lg"
+          className="bg-linear-to-r from-blue-500/10 to-purple-500/10 rounded-2xl p-8 md:p-12 text-center border border-gray-700 backdrop-blur-lg"
         >
-          <h2 className="text-4xl font-bold mb-6">
+          <h2 className=" text-3xl md:text-4xl font-bold mb-6">
             Ready to Start Your <span className="bg-linear-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Investment Journey</span>?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
@@ -409,7 +409,7 @@ const Home = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-linear-to-r from-blue-500 to-purple-600 px-12 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-blue-500/25 transition-all"
+            className="bg-linear-to-r from-blue-500 to-purple-600 px-10 py-3 md:px-12 md:py-4 md:text-lg text-sm rounded-full font-semibold  hover:shadow-2xl hover:shadow-blue-500/25 transition-all"
           >
             Start Investing Now
           </motion.button>
